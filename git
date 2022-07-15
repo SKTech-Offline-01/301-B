@@ -1,0 +1,22 @@
+			 
+    $ git int 						--> to intilize or create the empty repo
+	$ git status					--> to verify the tracked and untracked files
+	$ git add <filename/./*>		--> to move file working area to stagging area
+	$ git commit -m <"c.msg">		--> to move the file stagging to local repo
+	$ git log  						--> its shows the history of commits
+	$ git config --global user.name username   --> to connect git to github a/commit
+	$ git config --global user.email emailID  	--> 
+	$ git remote add <aliasName> <URL>			--> to connect local repo to remote repo
+	$ git push <aliasName <branch name>			--> to push to repo
+	$ git remote -v 							--> shows the alias name details 
+	$ git config --list 						--> to shows the github details
+	$ git branch								--> to shows the current branch name
+	$ git branch <branchname>					--> creates new branch
+	$ git checkout <Destination branch>			--> its copy the details from master branch
+	From Master branch:
+	$ git merge <target branch>					--> its merging with master branch
+	$ git reset 
+	1.git reset --soft HEAD~1					--> file bck to stagging area-commit id removes data still exists
+	2.git reset --mixed HEAD~1 					--> file back to working area- commit id will be remove data still exists
+	3.git reset --hard HEAD~1					--> file commit id and data also will remove
+	git clone  <URL>							--> to copy the sourcecode from othr repo
